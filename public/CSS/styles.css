@@ -1,0 +1,30 @@
+body {
+    background: #333;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    font-size: 7rem;
+    margin-top: 20vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.author {
+    font-size: 2rem;
+}
