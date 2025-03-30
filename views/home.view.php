@@ -8,22 +8,42 @@ require '../partials/quotes.php';
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../public/CSS/styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+  </style>
+  <link rel="stylesheet" href="CSS/styles.css">
   <title>Just Do It</title>
 </head>
 
 <body>
   <header>
-    <h1>JUST DO IT</h1>
+    <h1 class="ibm-plex-sans-header">JUST DO IT</h1>
   </header>
   <main>
-    <div class="quote-container">
-      <p class="quote">
-        Quote
-      </p>
+    <div>
+      <?php displayQuote($quote1) ?>
     </div>
-    <div class="author-quote-container">
-      <p class="author"> - Author</p>
+    <div>
+      <?php displayAuthor($quote1) ?>
+    </div>
+    <div>
+      <?php displayQuote($quote2) ?>
+    </div>
+    <div>
+      <?php displayAuthor($quote2) ?>
+    </div>
+    <div>
+      <?php displayQuote($quote3) ?>
+    </div>
+    <div>
+      <?php displayAuthor($quote3) ?>
+    </div>
+    <div>
+      <?php displayQuote($quote4) ?>
+    </div>
+    <div>
+      <?php displayAuthor($quote4) ?>
     </div>
   </main>
 </body>
