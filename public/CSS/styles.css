@@ -40,6 +40,8 @@ header h2 {
 
 footer {
     display: flex;
+    flex-flow: column;
+    align-items: center;
     padding: 4em 0em;
 }
 
