@@ -18,34 +18,32 @@ require '../partials/quotes.php';
 
 <body>
   <header>
-    <h1 class="ibm-plex-sans-header">JUST DO IT</h1>
+    <h1 class="hero-text">JUST DO IT</h1>
+    <h2>Find motivation when you need it most</h2>
   </header>
   <main>
-    <div>
+    <div class="quote-container">
       <?php displayQuote($quote1) ?>
-    </div>
-    <div>
       <?php displayAuthor($quote1) ?>
     </div>
-    <div>
+    <div class="quote-container">
       <?php displayQuote($quote2) ?>
-    </div>
-    <div>
       <?php displayAuthor($quote2) ?>
     </div>
-    <div>
+    <div class="quote-container">
       <?php displayQuote($quote3) ?>
-    </div>
-    <div>
       <?php displayAuthor($quote3) ?>
     </div>
-    <div>
+    <div class="quote-container">
       <?php displayQuote($quote4) ?>
-    </div>
-    <div>
       <?php displayAuthor($quote4) ?>
     </div>
   </main>
+  <footer>
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5-sfG8BV8wU?si=39JLLn7iI7642AVn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </footer>
 </body>
 
 </html>

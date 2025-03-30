@@ -1,55 +1,67 @@
 body {
     background: #333;
+    color: #B2DBC3;
     margin: 0 auto;
-    max-width: 1200px;
-    min-width: 500px;
+    height: auto;
     text-wrap: pretty;
-    display: flex;
-    flex-flow: column ;
+    max-width: 1024px;
 }
 
 header {
     font-family: "IBM Plex Sans", sans-serif;
+    color: #178582;
     font-optical-sizing: auto;
-    font-weight: 600;
-    font-size: 6.5rem;
-    color: #178582; 
-    background-image: linear-gradient(90deg, #178582 , #40A29D , #78BFA8 , #B2DBC3 , #EDF8DE ); 
-    background-clip: text; 
+    letter-spacing: .25em;
+    background-image: linear-gradient(270deg, #178582 , #40A29D , #78BFA8 , #B2DBC3 , #EDF8DE ); 
+    background-clip: text;
     -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-top: 12em;
+    margin-bottom: 20em;
+}
+
+header h2 {
+    font-size: 2em;
+}
+
+.hero-text {
+    color: #178582;
+    font-size: 12em;
+    font-weight: 600;
+    letter-spacing: -.015em;
+    font-optical-sizing: auto;
+    background-clip: text; 
+    background-image: linear-gradient(90deg, #178582 , #40A29D , #78BFA8 , #B2DBC3 , #EDF8DE ); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -.25em;
+}
+
+footer {
+    display: flex;
+    padding: 4em 0em;
 }
 
 .quote {
     font-family: "Permanent Marker", sans-serif;
     font-optical-sizing: auto;
+    letter-spacing: .035em;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3em;
     text-align: left;
-    line-height: 7rem;
 }
 
 .author {
     font-family: "Permanent Marker", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2em;
     text-align: right;
-    color: #bbb;
+    color: #178582;
 }
 
-mark {
-    margin: 0 -0.4em;
-    padding: 0.1em 0.4em;
-    border-radius: 0.8em 0.3em;
-    background: transparent;
-    background-image: linear-gradient(
-      to right,
-      rgba(255, 225, 0, 0.1),
-      rgba(255, 225, 0, 0.7) 4%,
-      rgba(255, 225, 0, 0.3)
-    );
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-    color: #eee;
+.quote-container {
+    border-bottom: solid 3px #aaaaaa25;
+    padding: 8em 0;
 }

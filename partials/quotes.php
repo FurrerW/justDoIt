@@ -14,7 +14,7 @@ class Quote
 
 function displayQuote($quote)
 {
-  echo "<p class=\"quote\"><mark>$quote->advice</mark></p>";
+  echo "<p class=\"quote\">$quote->advice</p>";
 }
 
 function displayAuthor($quote)
